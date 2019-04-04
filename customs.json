@@ -1,0 +1,14 @@
+{
+    "elements": {},
+    "attributes": {
+        "layout:decorate": {
+            "context": "html"
+        },
+        "th:fragment": {
+            "context": "header"
+        },
+        "layout:fragment": {
+            "context": "section"
+        }
+    }
+}
