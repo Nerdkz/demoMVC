@@ -27,7 +27,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-                
+        
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.4.2.Final</version>
+        </dependency>
+  
                 
         <!-- JPA, MySQL and H2 NEWER-->
         <dependency>
@@ -59,8 +66,7 @@
                 
         <dependency>
             <groupId>org.webjars</groupId>
-            <artifactId>webjars-locator</artifactId>
-            <version>0.36</version>
+            <artifactId>webjars-locator-core</artifactId>
         </dependency>
                 
         <dependency>
