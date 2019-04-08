@@ -3,8 +3,7 @@
     <head><meta charset="UTF-8"/></head>
     <body>
 
-        <section class="layout-content" layout:fragment="corpo">
-
+        <section class="layout-content" layout:fragment="corpo">            
             <nav class="navbar navbar-expand-md bg-light">
                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav mr-auto">
@@ -21,7 +20,9 @@
             </nav>
 
             <div class="container" id="cadastro">
+                
                 <div th:replace="fragments/alert"></div>
+                
                 <form th:action="${cargo.id == null} ? @{/cargos/salvar} : @{/cargos/editar}" 
                       th:object="${cargo}" method="POST">
                     <div class="form-row">
@@ -43,6 +44,7 @@
                     <button type="submit" class="btn btn-primary btn-sm">Salvar</button>
                 </form>
             </div>
+            <div th:replace="fragments/modal :: modal"></div>
         </section>
     </body>
 </html>		
