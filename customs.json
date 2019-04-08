@@ -1,11 +1,23 @@
 {
     "elements": {},
     "attributes": {
+        "th:text": {
+            "context": "td"
+        },
         "layout:decorate": {
             "context": "html"
         },
+        "th:action": {
+            "context": "form"
+        },
         "th:fragment": {
             "context": "header"
+        },
+        "th:field": {
+            "context": "input"
+        },
+        "th:each": {
+            "context": "tr"
         },
         "layout:fragment": {
             "context": "section"
