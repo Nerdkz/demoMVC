@@ -4,11 +4,17 @@
         "th:text": {
             "context": "td"
         },
+        "th:id": {
+            "context": "button"
+        },
         "layout:decorate": {
             "context": "html"
         },
         "th:action": {
             "context": "form"
+        },
+        "th:replace": {
+            "context": "div"
         },
         "th:fragment": {
             "context": "header"
