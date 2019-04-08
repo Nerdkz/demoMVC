@@ -4,6 +4,12 @@
         "th:text": {
             "context": "td"
         },
+        "th:if": {
+            "context": "div"
+        },
+        "aria-hiden": {
+            "context": "span"
+        },
         "th:id": {
             "context": "button"
         },
